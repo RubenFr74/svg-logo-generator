@@ -4,7 +4,7 @@ describe('Circle', () => {
   describe('Render Method', () => {
     it('should render circle string', () => {
       const circle = new Circle({
-        logoName: 'SVG',
+        logoName: 'Joe',
         textColour: 'yellow',
         bgColour: 'black',
         logoShape: 'circle',

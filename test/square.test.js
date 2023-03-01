@@ -4,7 +4,7 @@ describe('Square', () => {
   describe('Render Method', () => {
     it('should render square string', () => {
       const square = new Square({
-        logoName: 'SVG',
+        logoName: 'Eli',
         textColour: 'green',
         bgColour: 'orange',
         logoShape: 'square',
