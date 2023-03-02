@@ -53,7 +53,7 @@
   You can view more of my work at https://github.com/RubenFr74 .
   
   ## Screenshot
-  ![image](https://user-images.githubusercontent.com/119752452/220252600-c8626c10-93d3-4fb0-b7d7-485d5f3e139f.png)
+  ![image](https://user-images.githubusercontent.com/119752452/222351639-befe1855-fcaa-46e7-8a2a-9c4cce49192f.png)
   
   ## Tutorial Video
   Click [here](https://youtu.be/rK7jUU1-B3I) for a tutorial video of how the generator works.
