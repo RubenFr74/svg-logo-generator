@@ -4,13 +4,13 @@ describe('Triangle', () => {
   describe('Render Method', () => {
     it('should return triangle string', () => {
       const triangle = new Triangle({
-        logoName: 'Zoe',
-        textColour: 'purple',
-        bgColour: 'lightgrey',
+        logoName: 'Mel',
+        textColor: 'purple',
+        bgColor: '#000',
         logoShape: 'triangle',
       });
       expect(triangle.render()).toEqual(
-        `<polygon points="100 0, 0 ,0 50, 100" fill="lightgrey" />`
+        `<polygon points="100 0, 0 ,0 50, 100" fill="#000" />`
       );
     });
   });

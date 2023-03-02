@@ -4,9 +4,9 @@ describe('Square', () => {
   describe('Render Method', () => {
     it('should render square string', () => {
       const square = new Square({
-        logoName: 'Eli',
-        textColour: 'green',
-        bgColour: 'orange',
+        logoName: 'Ted',
+        textColor: 'red',
+        bgColor: 'orange',
         logoShape: 'square',
       });
       expect(square.render()).toEqual(

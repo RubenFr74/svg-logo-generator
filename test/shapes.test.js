@@ -12,27 +12,27 @@ var testCases = [
   },
   {
     desc: 'should throw error if input is not a vaild css colour',
-    input: { logoName: 'Ted', textColour: 'NotColour' },
+    input: { logoName: 'Ted', textColor: 'NotColour' },
     expectedErr: new Error(
       'Please enter a vaild css color keyword or hex code'
     ),
   },
   {
     desc: 'should throw an error if render() is called',
-    input: { logoName: 'Ted', textColour: 'green', bgColour: 'purple' },
+    input: { logoName: 'Ted', textColor: 'green', bgColor: 'purple' },
     expectedErr: new Error('Child shapes must implement a render() method'),
     shouldRender: true,
   },
   {
     desc: 'should add background colour if it is a valid color',
-    input: { logoName: 'Ted', textColour: 'green', bgColour: 'purple' },
-    expectedKey: 'bgColour',
+    input: { logoName: 'Ted', textColor: 'green', bgColor: 'purple' },
+    expectedKey: 'bgColor',
     expectedValue: 'purple',
   },
   {
     desc: 'should add text colour if it is a valid color',
-    input: { logoName: 'Ted', textColour: 'red', bgColour: 'purple' },
-    expectedKey: 'textColour',
+    input: { logoName: 'Ted', textColor: 'red', bgColor: 'purple' },
+    expectedKey: 'textColor',
     expectedValue: 'red',
   },
 ];
