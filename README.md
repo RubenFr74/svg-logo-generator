@@ -42,7 +42,7 @@
   ## Tests
   * Its been tested for correct user input, logo text must not exceed 3 characters and must contain atleast 1 character.
   
-  * It must be a vaild CSS named value or hex code to set the text colour of the logo and the background colour of the logo.
+  * It must be a vaild CSS named value or hex code to set the text color of the logo and the background color of the logo.
   
   * These tests must be passed in order for the logo.svg file to be generated.
 
