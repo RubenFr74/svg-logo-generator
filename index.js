@@ -31,7 +31,7 @@ inquirer
     const svgPath = './examples/logo.svg';
     const finalLogo = makeShape(data);
 
-    //Generate the svg logo here.
+    //Generates the SVG logo 
     fs.writeFile(svgPath, generateSvg(finalLogo), (err) =>
       err ? console.error(err) : console.log('Generated logo.svg')
     );
