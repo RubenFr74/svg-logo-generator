@@ -17,7 +17,7 @@ inquirer
     },
     {
       type: 'input',
-      name: 'logoColor',
+      name: 'bgColor',
       message: `Please enter a color keyword or a hexadecimal number for the logo's background color`,
     },
     {
@@ -28,7 +28,7 @@ inquirer
     },
   ])
   .then((data) => {
-    const svgPath = './dist/logo.svg';
+    const svgPath = './examples/logo.svg';
     const finalLogo = makeShape(data);
 
     //Generate the svg logo here.
