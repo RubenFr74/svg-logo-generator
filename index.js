@@ -13,7 +13,7 @@ inquirer
     {
       type: 'input',
       name: 'textColor',
-      message: `Please enter text color keyword or a hexadecimal number for the logo's test color`,
+      message: `Please enter a color keyword or a hexadecimal number for the logo's text color`,
     },
     {
       type: 'input',
